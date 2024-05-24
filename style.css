@@ -17,15 +17,11 @@ main {
   font-size: 0.7em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
-  /* alinha itens ao centro */
   display:flex;
   align-items: center;
   justify-content: center;
 
-  /* estudar display: grid vs diplay: flex  */
-  /* estudar id vs class  */
 
-  /* deixa do tamanho total da tela */
   height: 100vh; 
 }
 
@@ -41,7 +37,6 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   
-  /* inherit = valor padrão */
   text-align: inherit;
 
   margin-bottom: 1rem;
@@ -78,16 +73,13 @@ button {
   outline: 1px solid wheat;
 }
 
-/*estudar a diferença sobre button.btn-azul != button .btn-azul */
 
-/* item específico */
 button.btn-azul {
   background-color: blue;
   outline: 1px solid blue;
 
 }
 
-/* item > item de dentro */
 button .btn-azul {
   background-color: blue;
   outline: 1px solid blue;
